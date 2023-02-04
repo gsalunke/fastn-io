@@ -6,8 +6,7 @@ download-base-url: https://raw.githubusercontent.com/gsalunke/fastn-io/main
 
 -- fastn.dependency: fifthtry.github.io/ds-set1-cs as fastn-cs
 
--- fastn.dependency: fifthtry.github.io/ds-set1-typography as typo
-
+-- fastn.dependency: fifthtry.github.io/fastn-typography as typo
 
 -- fastn.auto-import: fastn
 
