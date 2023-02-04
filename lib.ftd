@@ -1,7 +1,7 @@
--- import: fifthtry.github.io/fastn-io/assets
+-- import: gsalunke.github.io/fastn-io/assets
 -- import: fastn
 -- import: fastn/processors as pr
--- import: fifthtry.github.io/fastn.io/footer-toc as toc
+-- import: gsalunke.github.io/fastn.io/footer-toc as toc
 -- import: fastn-cs
 -- import: typo
 
