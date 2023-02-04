@@ -1,7 +1,7 @@
--- import: gsalunke.github.io/fastn-io/assets
+-- import: fifthtry.github.io/fastn-io/assets
 -- import: fastn
 -- import: fastn/processors as pr
--- import: gsalunke.github.io/fastn-io/footer-toc as toc
+-- import: fifthtry.github.io/fastn.io/footer-toc as toc
 -- import: fastn-cs
 -- import: typo
 
@@ -10,7 +10,6 @@
 
 -- pr.sitemap-data footer-toc:
 $processor$: pr.full-sitemap
-
 
 
 
@@ -32,9 +31,6 @@ font-family: sans-serif
 -- ftd.responsive-type hero:
 desktop: $hero-desktop
 mobile: $hero-mobile
-
-
-
 
 
 
@@ -1109,7 +1105,6 @@ childs: $hero-section.childs
 -- end: ftd.column
 
 -- end: hero-section
-
 
 
 
@@ -2989,13 +2984,11 @@ right.px if { ftd.device == "mobile" }: -6
 top.px if { ftd.device == "mobile" }: -16
 border-radius.px if { ftd.device == "mobile" }: 15
 
-
 -- ftd.row:
 width: fill-container
 padding-vertical.px: 60
 padding-horizontal.px: 60
 padding-horizontal.px if { ftd.device == "mobile" }: 16
-
 
 -- ftd.column:
 if: { ftd.device != "mobile" }
@@ -3745,7 +3738,7 @@ align-self: center
 -- ftd.text:
 if: { testimonial-card.body != NULL }
 text: $testimonial-card.body
-color: $inherited.colors.custom.five.dark
+color: $inherited.colors.custom.seven
 role: $inherited.types.copy-regular
 align-self: center
 
@@ -3757,11 +3750,11 @@ spacing.fixed.px: 6
 
 -- ftd.text: $testimonial-card.title
 role: $inherited.types.blockquote
-color: $inherited.colors.custom.five.dark
+color: $inherited.colors.custom.seven
 
 -- ftd.text: $testimonial-card.label
 role: $inherited.types.fine-print
-color: $inherited.colors.custom.five.dark
+color: $inherited.colors.custom.seven
 
 -- end: ftd.column
 
@@ -4439,5 +4432,4 @@ min-width.fixed.px: 112
 -- end: ftd.column
 
 -- end: mode-changer
-
 
