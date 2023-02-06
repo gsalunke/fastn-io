@@ -2583,7 +2583,7 @@ spacing.fixed.px: 16
 
 -- ftd.text: $excel-promo-card.title
 role: $inherited.types.heading-large
-color: $inherited.colors.text.dark
+color: $inherited.colors.text
 color if { excel-promo-card.keep-dark }: $inherited.colors.text.dark
 
 -- ftd.text:
@@ -3262,7 +3262,7 @@ align-content: center
 
 -- ftd.text: $row-container.title
 if: { row-container.title != NULL }
-role: $font-50
+role: $inherited.types.heading-large
 color: $inherited.colors.text-strong
 align-self: center
 margin-bottom.px: 80
@@ -3619,7 +3619,7 @@ color: $inherited.colors.text-strong
 align-self: center
 width: fill-container
 margin-top.px: 24
-text-align if { ftd.device == "mobile" }: center
+text-align: center
 white-space if { ftd.device != "mobile" }: nowrap
 
 -- ftd.image:
@@ -4432,4 +4432,5 @@ min-width.fixed.px: 112
 -- end: ftd.column
 
 -- end: mode-changer
+
 
